@@ -1,0 +1,151 @@
+#drop{
+    display: none;
+}
+#drop ul li a {
+    color:#7782A3 !important;
+}
+#drop ul li {
+    border-bottom: 1px solid #00000014;
+    padding-left:30px;
+    padding-top:3px;
+
+}
+.all ul li {
+    background: #f1f6f7;
+    border-bottom: 1px solid #00000014;
+   padding-left: 30px;
+}
+.prod{
+    width: 100%;
+    border: 0.4px solid #a7b4c0;
+    background-color: #FFFEFB;
+}
+.prod img{
+
+
+}
+.prod h6{
+    background-color: #F05D40;
+}
+.prod h6:hover {
+    background-color: black;
+}
+.prod a{
+    color:white;
+}
+.prod a:hover {
+    color: white;
+}
+
+.list-buy ul li {
+    padding-bottom: 5px;
+
+}
+
+
+/*credit-card*/
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+.credit-card-box .panel-heading{
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/*bill*/
+#customer_orders{
+    font-family: 'Quicksand', sans-serif!important;
+}
+#customer_orders, #order_payment, #order_shipping {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.customer-table-wrap {
+    background: #f7f7f7;
+    padding: 10px;
+}
+.customer-table-bg {
+    background: #fff;
+    padding: 10px;
+}
+.customer_order .customer-table-bg{
+    line-height: 1.4;
+    font-size: 14px;
+    color: #213d7c;
+}
+.customer-table-bg p {
+    margin: 0;
+}
+.title-detail {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 8px;
+}
+#customer_orders table, #order_details {
+    width: 100%;
+    background: #fff;
+}
+.table-responsive .table {
+    width: 100%;
+    border-spacing: 0;
+}
+.odd .status_paid{
+    color: #5cb85c;
+}
+.odd .status_fulfilled{
+    color: #5cb85c;
+}
+
+/*banner*/
+.banner-area .banner{
+    /*width: 100%;*/
+    height: 400px;
+    background-image: url('../img/home/banner.png');
+    background-color: #a7c6e6;
+    padding-top: 140px;
+}

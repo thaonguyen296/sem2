@@ -1,0 +1,89 @@
+thead.table-list {
+    background-color: #d8d6d6;
+}
+
+.table{
+    margin-top: 30px;
+}
+
+.cart_inner .empty-cart{
+    text-align: center;
+    background-color: #fff;
+    padding: 0 30px 30px;
+    border-radius: 4px;
+}
+.cart_inner .empty-cart a {
+    background-color: #1f35f7;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9.5px 55.5px;
+}
+.cart_inner .empty-cart a:hover{
+    background-color: #1567ff;
+}
+
+.product_count a {
+    color: #fff !important;
+}
+.product_count a:hover {
+    color: #777 !important;
+}
+.container .page-body{
+    color: #4c4c4c;
+    margin-top: 30px;
+}
+.page-body div.feedback-name {
+    width: 250px;
+}
+.page-body .feedback-name input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.page-body .feedback-email{
+    width:500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.page-body .feedback-satisfied{
+    margin-bottom: 12px;
+}
+.feedback-satisfied .rate{
+    margin-right: 25px;
+    margin-left: 50px;
+}
+.feedback-satisfied .satisfied-content{
+
+}
+.feedback-satisfied .satisfied-title{
+    display: inline-block;
+}
+.feedback-satisfied .satisfied-rate{
+    display: inline-block;
+}
+.page-body .feedback-comment{
+    width: 715px;
+}
+.feedback-comment .note{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2em;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+.page-body .submit{
+    width: 690px;
+    text-align: center;
+}
+.page-body .submit button{
+    background-color: #0064cb;
+    color: #ffffff;
+    border: solid #0064cb;
+    margin-top: 13px;
+}
+.submit button span{
+    color:#ffffff;
+}
